@@ -1,0 +1,142 @@
+[
+    {
+        "id": 1,
+        "title": "AlumniConnect",
+        "subtitle": "Government College Alumni Website (Hackathon Project)",
+        "description": "A full-stack alumni networking platform developed during the Nirman 2.0 Hackathon at Silicon University.",
+        "features": [
+            "User authentication and role-based access",
+            "Alumni profile creation and networking",
+            "Responsive and scalable UI"
+        ],
+        "tech": [
+            "React",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "REST API",
+            "JWT Authentication",
+            "Responsive UI Components"
+        ],
+        "image": "/assets/projects/alumniconnect.png",
+        "link": "https://alumniconnect-innovate-x.sipun.online"
+    },
+    {
+        "id": 2,
+        "title": "Simon Game",
+        "subtitle": "Interactive Memory Game",
+        "description": "A React-based implementation of the classic Simon memory game using component-driven UI and state management.",
+        "features": [
+            "Component-based game logic",
+            "State-driven UI updates",
+            "Keyboard and click interactions"
+        ],
+        "tech": [
+            "React",
+            "React Hooks (useState, useEffect)",
+            "Component State Management",
+            "CSS Modules"
+        ],
+        "image": "Simon.png",
+        "link": "https://pruthivi13.github.io/Simon-game/"
+    },
+    {
+        "id": 3,
+        "title": "Tribute Page",
+        "subtitle": "Ratan Tata Tribute",
+        "description": "A single-page React application showcasing a clean tribute layout with reusable UI components.",
+        "features": [
+            "Reusable React components",
+            "Semantic layout structure",
+            "Responsive typography and layout"
+        ],
+        "tech": [
+            "React",
+            "Functional Components",
+            "CSS Modules",
+            "Responsive Design Principles"
+        ],
+        "image": "Tribute.png",
+        "link": "https://pruthivi13.github.io/OIBSIP_task2/"
+    },
+    {
+        "id": 4,
+        "title": "Weather App",
+        "subtitle": "Real-Time Weather Forecast Application",
+        "description": "A React-based weather application that fetches real-time weather data using external APIs.",
+        "features": [
+            "Live weather data fetching",
+            "Location-based forecasts",
+            "Dynamic UI updates based on API responses"
+        ],
+        "tech": [
+            "React",
+            "REST API Integration",
+            "Axios",
+            "React Hooks (useEffect)",
+            "Environment Variables"
+        ],
+        "image": "Weather.png",
+        "link": "https://pruthivi13.github.io/WeatherApp/Weather%20App/"
+    },
+    {
+        "id": 5,
+        "title": "Task Master",
+        "subtitle": "Task Management Application",
+        "description": "A React-based task management application with component-driven architecture and persistent state handling.",
+        "features": [
+            "Add, delete, and mark tasks as complete",
+            "Local state and persistence",
+            "Clean and intuitive UI"
+        ],
+        "tech": [
+            "React",
+            "React Hooks (useState)",
+            "LocalStorage",
+            "Reusable UI Components"
+        ],
+        "image": "Task master.png",
+        "link": "https://pruthivi13.github.io/OIBSIP_task3/"
+    },
+    {
+        "id": 6,
+        "title": "Personal Portfolio Website",
+        "subtitle": "Developer Portfolio",
+        "description": "A modern personal portfolio built with React showcasing projects, skills, and contact information.",
+        "features": [
+            "JSON-driven project data",
+            "Dark mode support",
+            "Responsive and accessible layout"
+        ],
+        "tech": [
+            "React",
+            "Component-Based Architecture",
+            "Dark Mode (Context API)",
+            "Responsive Design"
+        ],
+        "image": "Portfolio.png",
+        "link": "https://pruthivi13.github.io/personal-website/"
+    },
+    {
+        "id": 7,
+        "title": "NoteMint",
+        "subtitle": "AI-Powered MERN Notes App",
+        "description": "A full-stack MERN application that allows users to create, organize, and summarize notes using AI.",
+        "features": [
+            "Offline-first note management",
+            "AI-powered note summarization",
+            "Secure authentication and data storage"
+        ],
+        "tech": [
+            "React",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "REST API",
+            "AI API Integration",
+            "JWT Authentication"
+        ],
+        "image": "Note mint.png",
+        "link": "https://note-mint.netlify.app/"
+    }
+]

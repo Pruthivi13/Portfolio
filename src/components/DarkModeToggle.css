@@ -1,0 +1,22 @@
+.dark-mode-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background: transparent;
+  border: var(--border-width) solid var(--border-color);
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.dark-mode-toggle:hover {
+  background-color: var(--text-primary);
+  color: var(--bg-primary);
+}
+
+.dark-mode-toggle svg {
+  width: 20px;
+  height: 20px;
+}

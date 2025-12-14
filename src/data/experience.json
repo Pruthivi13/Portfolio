@@ -1,0 +1,38 @@
+{
+    "experience": [
+        {
+            "type": "work",
+            "title": "Front-End Developer Intern",
+            "organization": "Oasis Infobyte",
+            "period": "Sep 2023 – Oct 2023",
+            "description": "Developed responsive web applications using React and modern CSS frameworks."
+        },
+        {
+            "type": "work",
+            "title": "Core Photo Editor",
+            "organization": "SOA Photography Club",
+            "period": "2022 – 2025",
+            "description": "Led visual content creation and photo editing for university events and publications."
+        }
+    ],
+    "education": [
+        {
+            "degree": "B.Tech – Computer Science & Information Technology",
+            "institution": "ITER, Siksha 'O' Anusandhan University",
+            "period": "2022 – 2026",
+            "grade": "CGPA: 9.39"
+        },
+        {
+            "degree": "Senior Secondary (CBSE – PCM)",
+            "institution": "Kendriya Vidyalaya, Sambalpur",
+            "period": "2020 – 2022",
+            "grade": "96%"
+        },
+        {
+            "degree": "Secondary (CBSE)",
+            "institution": "Kendriya Vidyalaya, Sambalpur",
+            "period": "2009 – 2020",
+            "grade": "95.2%"
+        }
+    ]
+}

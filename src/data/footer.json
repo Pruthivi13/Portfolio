@@ -1,0 +1,16 @@
+{
+    "copyright": "Pruthiviraj Sahu",
+    "tagline": "Built with React & lots of ☕",
+    "email": "mail.to.pruthivi@gmail.com",
+    "phone": "+91 9337005825",
+    "social": [
+        {
+            "name": "GitHub",
+            "url": "https://github.com/Pruthivi13"
+        },
+        {
+            "name": "LinkedIn",
+            "url": "https://linkedin.com/in/pruthiviraj-sahu"
+        }
+    ]
+}

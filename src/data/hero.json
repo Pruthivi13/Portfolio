@@ -1,0 +1,21 @@
+{
+    "title": "Hello.",
+    "name": "Pruthiviraj",
+    "subtitle": "Full-Stack Developer | React • Java • Spring Boot • MERN",
+    "description": "Full-stack developer specializing in React, Java, Spring Boot, and MERN stack technologies, with experience building scalable, user-focused web applications and RESTful APIs.",
+    "resumeLink": "https://drive.google.com/file/d/1CKpGhmPrFeAOCaenDhqS8x3UFS9-35rW/view?usp=sharing",
+    "buttons": [
+        {
+            "text": "View Projects",
+            "href": "#projects",
+            "isPrimary": true
+        },
+        {
+            "text": "Download Resume",
+            "href": "/resume.pdf",
+            "isPrimary": false,
+            "isExternal": true,
+            "download": true
+        }
+    ]
+}

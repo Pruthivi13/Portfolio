@@ -1,0 +1,39 @@
+[
+    {
+        "title": "Frontend",
+        "skills": [
+            "React",
+            "JavaScript (ES6+)",
+            "Component-based UI",
+            "Responsive Design",
+            "Tailwind CSS",
+            "Bootstrap"
+        ]
+    },
+    {
+        "title": "Backend",
+        "skills": [
+            "Java",
+            "Spring Boot",
+            "Node.js",
+            "Express.js",
+            "RESTful API Design"
+        ]
+    },
+    {
+        "title": "Databases",
+        "skills": [
+            "MongoDB",
+            "SQL (MySQL / PostgreSQL)"
+        ]
+    },
+    {
+        "title": "Tools & Practices",
+        "skills": [
+            "Git & GitHub",
+            "JWT Authentication",
+            "API Integration",
+            "MVC & Layered Architecture"
+        ]
+    }
+]
