@@ -77,7 +77,7 @@
             "Environment Variables"
         ],
         "image": "Weather.png",
-        "link": "https://pruthivi13.github.io/WeatherApp/Weather%20App/"
+        "link": "https://weather-app-one-beta-57.vercel.app/"
     },
     {
         "id": 5,
@@ -96,7 +96,7 @@
             "Reusable UI Components"
         ],
         "image": "Task master.png",
-        "link": "https://pruthivi13.github.io/OIBSIP_task3/"
+        "link": "https://task-master-eta-mauve.vercel.app/"
     },
     {
         "id": 6,
@@ -137,6 +137,6 @@
             "JWT Authentication"
         ],
         "image": "Note mint.png",
-        "link": "https://note-mint.netlify.app/"
+        "link": "https://note-mint.vercel.app/"
     }
 ]
