@@ -44,16 +44,16 @@
         "id": 3,
         "title": "Tribute Page",
         "subtitle": "Ratan Tata Tribute",
-        "description": "A single-page React application showcasing a clean tribute layout with reusable UI components.",
+        "description": "A single-page HTML, CSS and JS Project showcasing a clean tribute layout.",
         "features": [
-            "Reusable React components",
+            "Tribute page for sir Ratan Tata",
             "Semantic layout structure",
-            "Responsive typography and layout"
+            "Made with HTML, CSS and JS"
         ],
         "tech": [
-            "React",
-            "Functional Components",
-            "CSS Modules",
+            "HTML",
+            "CSS",
+            "JS",
             "Responsive Design Principles"
         ],
         "image": "Tribute.png",
