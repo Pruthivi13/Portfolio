@@ -18,7 +18,7 @@
 
 .quick-links__grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   border: var(--border-width) solid var(--border-color);
 }
 
@@ -60,27 +60,60 @@
   transform: translate(4px, -4px);
 }
 
-/* Mobile Styles */
-@media (max-width: 768px) {
+/* Tablet Styles - 2 columns with last item full width */
+@media (max-width: 900px) {
+  .quick-links__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .quick-links__item {
+    border-right: var(--border-width) solid var(--border-color);
+    border-bottom: var(--border-width) solid var(--border-color);
+  }
+
+  .quick-links__item:nth-child(2),
+  .quick-links__item:nth-child(4) {
+    border-right: none;
+  }
+
+  /* Last item spans full width */
+  .quick-links__item:nth-child(5) {
+    grid-column: 1 / -1;
+    border-right: none;
+    border-bottom: none;
+    justify-content: center;
+    gap: 20px;
+  }
+}
+
+/* Mobile Styles - 2 columns */
+@media (max-width: 600px) {
   .quick-links__grid {
     grid-template-columns: 1fr 1fr;
   }
 
-  .quick-links__item:nth-child(2) {
+  .quick-links__item {
+    border-right: var(--border-width) solid var(--border-color);
+    border-bottom: var(--border-width) solid var(--border-color);
+    padding: 16px 20px;
+  }
+
+  .quick-links__item:nth-child(2),
+  .quick-links__item:nth-child(4) {
     border-right: none;
   }
 
-  .quick-links__item:nth-child(1),
-  .quick-links__item:nth-child(2) {
-    border-bottom: var(--border-width) solid var(--border-color);
-  }
-
-  .quick-links__item:nth-child(3) {
-    border-right: var(--border-width) solid var(--border-color);
+  .quick-links__item:nth-child(5) {
+    grid-column: 1 / -1;
+    border-right: none;
+    border-bottom: none;
+    justify-content: center;
+    gap: 20px;
   }
 }
 
-@media (max-width: 480px) {
+/* Small Mobile - single column, centered text */
+@media (max-width: 400px) {
   .quick-links__grid {
     grid-template-columns: 1fr;
   }
@@ -88,6 +121,9 @@
   .quick-links__item {
     border-right: none;
     border-bottom: var(--border-width) solid var(--border-color);
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
   }
 
   .quick-links__item:last-child {

@@ -14,5 +14,9 @@
     {
         "name": "Email",
         "url": "mailto:mail.to.pruthivi@gmail.com"
+    },
+    {
+        "name": "YouTube",
+        "url": "https://www.youtube.com/@lofisight"
     }
 ]
