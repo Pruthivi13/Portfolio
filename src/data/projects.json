@@ -99,24 +99,30 @@
         "link": "https://task-master-eta-mauve.vercel.app/"
     },
     {
-        "id": 6,
-        "title": "Personal Portfolio Website",
-        "subtitle": "Developer Portfolio",
-        "description": "A modern personal portfolio built with React showcasing projects, skills, and contact information.",
-        "features": [
-            "JSON-driven project data",
-            "Dark mode support",
-            "Responsive and accessible layout"
-        ],
-        "tech": [
-            "React",
-            "Component-Based Architecture",
-            "Dark Mode (Context API)",
-            "Responsive Design"
-        ],
-        "image": "Portfolio.png",
-        "link": "https://pruthivi13.github.io/personal-website/"
-    },
+    "id": 6,
+    "title": "LifeOS",
+    "subtitle": "Personal Digital Life Dashboard",
+    "description": "A comprehensive personal dashboard that unifies task management, habit tracking, mood journaling, and dynamic wellness analytics into one calm, beautiful interface.",
+    "features": [
+        "Dynamic Wellness Score combining tasks, habits, hydration & mood",
+        "Avatar picker with 18 predefined avatars (syncs across devices)",
+        "7-day habit streaks with animated feedback",
+        "PWA support - install as native mobile app",
+        "Real-time analytics with motivational messages"
+    ],
+    "tech": [
+        "Next.js 15",
+        "TypeScript",
+        "Tailwind CSS",
+        "Framer Motion",
+        "Node.js + Express",
+        "MongoDB Atlas",
+        "JWT Authentication",
+        "DiceBear API"
+    ],
+    "image": "LifeOS.png",
+    "link": "https://life-os-b4d6.vercel.app/"
+},
     {
         "id": 7,
         "title": "NoteMint",
