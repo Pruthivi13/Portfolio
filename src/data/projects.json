@@ -98,27 +98,30 @@
         "image": "Task master.png",
         "link": "https://task-master-eta-mauve.vercel.app/"
     },
-    {
+  {
     "id": 6,
     "title": "LifeOS",
     "subtitle": "Personal Digital Life Dashboard",
-    "description": "A comprehensive personal dashboard that unifies task management, habit tracking, mood journaling, and dynamic wellness analytics into one calm, beautiful interface.",
+    "description": "A comprehensive full-stack productivity platform that unifies task management, habit tracking, mood journaling, and hydration reminders into one calm, beautiful interface with passwordless authentication.",
     "features": [
+        "Passwordless auth with Email OTP & Google Sign-In",
         "Dynamic Wellness Score combining tasks, habits, hydration & mood",
-        "Avatar picker with 18 predefined avatars (syncs across devices)",
         "7-day habit streaks with animated feedback",
-        "PWA support - install as native mobile app",
-        "Real-time analytics with motivational messages"
+        "Interactive onboarding tutorial for new users",
+        "PWA support with push notifications",
+        "Avatar picker with 18+ predefined avatars",
+        "Dark/Light theme with glassmorphism UI"
     ],
     "tech": [
-        "Next.js 15",
+        "Next.js 14",
         "TypeScript",
         "Tailwind CSS",
         "Framer Motion",
         "Node.js + Express",
         "MongoDB Atlas",
+        "Firebase Auth (Google, OTP)",
         "JWT Authentication",
-        "DiceBear API"
+        "Vercel + Render"
     ],
     "image": "LifeOS.png",
     "link": "https://life-os-b4d6.vercel.app/"
