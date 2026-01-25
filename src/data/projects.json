@@ -147,5 +147,28 @@
         ],
         "image": "Note mint.png",
         "link": "https://note-mint.vercel.app/"
+    },
+    {
+        "id": 8,
+        "title": "Campus connect",
+        "subtitle": "Centralized Campus Communication Platform",
+        "description": "A centralized campus information system that automates notices, enables resource sharing, and offers a modern, accessible UI.",
+        "features": [
+            " Real-time notices",
+            "PYQs and study materials",
+            "Global search",
+            "Light/Dark mode"
+        ],
+        "tech": [
+            "React",
+            "Node.js",
+            "REST API",
+            "Tailwind CSS",
+            "Tailwind CSS",
+            "Reusable UI Components"
+           
+        ],
+        "image": "Campus Connect.png",
+        "link": "https://campus-connect-phi-six.vercel.app/"
     }
 ]
