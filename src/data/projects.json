@@ -44,9 +44,7 @@
         "id": 3,
         "title": "Tribute Page",
         "subtitle": "Ratan Tata Tribute",
-        "description": "Tribute Page — Ratan Tata
-
-A responsive tribute page built with React, Vite, and Spline 3D. Features an interactive mouse-tracking 3D robot hero, dark-themed UI with custom typography, biography, achievements, and inspirational quote sections.",
+        "description": "Tribute Page — Ratan Tata A responsive tribute page built with React, Vite, and Spline 3D. Features an interactive mouse-tracking 3D robot hero, dark-themed UI with custom typography, biography, achievements, and inspirational quote sections.",
         "features": [
             "Tribute page for sir Ratan Tata",
             "Semantic layout structure",
@@ -100,34 +98,34 @@ A responsive tribute page built with React, Vite, and Spline 3D. Features an int
         "image": "Task master.png",
         "link": "https://task-master-eta-mauve.vercel.app/"
     },
-  {
-    "id": 6,
-    "title": "LifeOS",
-    "subtitle": "Personal Digital Life Dashboard",
-    "description": "A comprehensive full-stack productivity platform that unifies task management, habit tracking, mood journaling, and hydration reminders into one calm, beautiful interface with passwordless authentication.",
-    "features": [
-        "Passwordless auth with Email OTP & Google Sign-In",
-        "Dynamic Wellness Score combining tasks, habits, hydration & mood",
-        "7-day habit streaks with animated feedback",
-        "Interactive onboarding tutorial for new users",
-        "PWA support with push notifications",
-        "Avatar picker with 18+ predefined avatars",
-        "Dark/Light theme with glassmorphism UI"
-    ],
-    "tech": [
-        "Next.js 14",
-        "TypeScript",
-        "Tailwind CSS",
-        "Framer Motion",
-        "Node.js + Express",
-        "MongoDB Atlas",
-        "Firebase Auth (Google, OTP)",
-        "JWT Authentication",
-        "Vercel + Render"
-    ],
-    "image": "LifeOS.png",
-    "link": "https://life-os-b4d6.vercel.app/"
-},
+    {
+        "id": 6,
+        "title": "LifeOS",
+        "subtitle": "Personal Digital Life Dashboard",
+        "description": "A comprehensive full-stack productivity platform that unifies task management, habit tracking, mood journaling, and hydration reminders into one calm, beautiful interface with passwordless authentication.",
+        "features": [
+            "Passwordless auth with Email OTP & Google Sign-In",
+            "Dynamic Wellness Score combining tasks, habits, hydration & mood",
+            "7-day habit streaks with animated feedback",
+            "Interactive onboarding tutorial for new users",
+            "PWA support with push notifications",
+            "Avatar picker with 18+ predefined avatars",
+            "Dark/Light theme with glassmorphism UI"
+        ],
+        "tech": [
+            "Next.js 14",
+            "TypeScript",
+            "Tailwind CSS",
+            "Framer Motion",
+            "Node.js + Express",
+            "MongoDB Atlas",
+            "Firebase Auth (Google, OTP)",
+            "JWT Authentication",
+            "Vercel + Render"
+        ],
+        "image": "LifeOS.png",
+        "link": "https://life-os-b4d6.vercel.app/"
+    },
     {
         "id": 7,
         "title": "NoteMint",
@@ -168,7 +166,6 @@ A responsive tribute page built with React, Vite, and Spline 3D. Features an int
             "Tailwind CSS",
             "Tailwind CSS",
             "Reusable UI Components"
-           
         ],
         "image": "Campus Connect.png",
         "link": "https://campus-connect-phi-six.vercel.app/"
