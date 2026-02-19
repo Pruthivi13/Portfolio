@@ -44,20 +44,22 @@
         "id": 3,
         "title": "Tribute Page",
         "subtitle": "Ratan Tata Tribute",
-        "description": "A single-page HTML, CSS and JS Project showcasing a clean tribute layout.",
+        "description": "Tribute Page — Ratan Tata
+
+A responsive tribute page built with React, Vite, and Spline 3D. Features an interactive mouse-tracking 3D robot hero, dark-themed UI with custom typography, biography, achievements, and inspirational quote sections.",
         "features": [
             "Tribute page for sir Ratan Tata",
             "Semantic layout structure",
             "Made with HTML, CSS and JS"
         ],
         "tech": [
-            "HTML",
-            "CSS",
-            "JS",
-            "Responsive Design Principles"
+            "REACT",
+            "VITE",
+            "SPLINE",
+            "BOOT STRAP"
         ],
         "image": "Tribute.png",
-        "link": "https://pruthivi13.github.io/OIBSIP_task2/"
+        "link": "https://rata-tata-tribute.vercel.app/"
     },
     {
         "id": 4,
