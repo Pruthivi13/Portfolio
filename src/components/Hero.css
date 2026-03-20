@@ -4,6 +4,8 @@
   align-items: center;
   padding-top: 70px;
   background-color: var(--bg-secondary);
+  position: relative;
+  overflow: hidden;
 }
 
 .hero__container {
@@ -11,6 +13,8 @@
   margin: 0 auto;
   padding: 60px 24px;
   width: 100%;
+  position: relative;
+  z-index: 1;
 }
 
 .hero__content {

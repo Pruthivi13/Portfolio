@@ -1,10 +1,12 @@
 import AvatarSvg from '../assets/profile/avatar.svg';
 import heroData from '../data/hero.json';
+import AnimatedBackground from './AnimatedBackground';
 import './Hero.css';
 
 const Hero = () => {
   return (
     <section id="home" className="hero">
+      <AnimatedBackground />
       <div className="hero__container">
         <div className="hero__content">
           <div className="hero__text">
