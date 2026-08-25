@@ -5,7 +5,12 @@ const Skills = () => {
   return (
     <section id="skills" className="skills section">
       <div className="skills__container container">
-        <h2 className="section-title">Skills</h2>
+        <div className="skills__section-header">
+          <h2 className="section-title">SKILLS AND TECHNOLOGIES</h2>
+          <p className="skills__section-subtitle">
+            Tech Stack and Engineering Competencies
+          </p>
+        </div>
         <div className="skills__grid">
           {skillsData.map((category) => (
             <div key={category.title} className="skills__category card">

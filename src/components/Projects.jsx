@@ -14,7 +14,12 @@ const Projects = () => {
   return (
     <section id="projects" className="projects section">
       <div className="projects__container container">
-        <h2 className="section-title">Projects</h2>
+        <div className="projects__section-header">
+          <h2 className="section-title">PROJECTS</h2>
+          <p className="projects__section-subtitle">
+            Featured Works & Full-Stack Applications
+          </p>
+        </div>
         <div className="projects__grid">
           {projectsData.map((project) => {
             const imageUrl = getImageUrl(project.image);

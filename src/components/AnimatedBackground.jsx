@@ -2,13 +2,18 @@ import { useState, useEffect } from 'react';
 import LineWaves from './LineWaves';
 
 export default function AnimatedBackground() {
-  const [theme, setTheme] = useState('light');
+  const [theme, setTheme] = useState(() => {
+    if (typeof document !== 'undefined') {
+      const current = document.documentElement.getAttribute('data-theme');
+      if (current) return current;
+      const saved = localStorage.getItem('theme');
+      if (saved) return saved;
+      return window.matchMedia?.('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+    return 'light';
+  });
 
   useEffect(() => {
-    // Initial theme check
-    const currentTheme = document.documentElement.getAttribute('data-theme') || 'light';
-    setTheme(currentTheme);
-
     // Watch for theme changes
     const observer = new MutationObserver((mutations) => {
       mutations.forEach((mutation) => {
@@ -34,9 +39,9 @@ export default function AnimatedBackground() {
   const config = isDark
     ? {
         color1: '#ffffff', // Bright for dark mode
-        color2: '#a0a0a0',
-        color3: '#555555',
-        brightness: 0.15,
+        color2: '#c0c0c0',
+        color3: '#777777',
+        brightness: 0.25,
         warpIntensity: 0.8
       }
     : {

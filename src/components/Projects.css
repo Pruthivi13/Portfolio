@@ -3,6 +3,21 @@
   border-top: var(--border-width) solid var(--border-color);
 }
 
+.projects__section-header {
+  border-left: 4px solid var(--text-primary);
+  padding-left: 24px;
+  margin-top: 16px;
+  margin-bottom: 48px;
+}
+
+.projects__section-subtitle {
+  font-family: var(--font-primary);
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  margin-top: 8px;
+}
+
 .projects__grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

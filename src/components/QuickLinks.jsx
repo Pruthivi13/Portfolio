@@ -52,7 +52,7 @@ const QuickLinks = () => {
               key={link.name}
               href={link.url}
               className="quick-links__item"
-              target={link.url.startsWith('mailto') || link.url.startsWith('/') ? '_self' : '_blank'}
+              target="_blank"
               rel="noopener noreferrer"
             >
               <span className="quick-links__name">

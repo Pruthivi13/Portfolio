@@ -4,10 +4,15 @@
         "skills": [
             "React",
             "JavaScript (ES6+)",
+            "TypeScript",
+            "Next.js",
+            "Angular",
+            "HTML5 & CSS3",
             "Component-based UI",
             "Responsive Design",
             "Tailwind CSS",
-            "Bootstrap"
+            "Bootstrap",
+            "Framer Motion"
         ]
     },
     {
@@ -17,30 +22,43 @@
             "Spring Boot",
             "Node.js",
             "Express.js",
-            "RESTful API Design"
+            "RESTful API Design",
+            "Microservices Architecture",
+            "Socket.io (Real-Time WebSockets)",
+            "Firebase Auth (OTP & OAuth)",
+            "AI API Integration"
         ]
     },
     {
         "title": "Databases",
         "skills": [
             "MongoDB",
-            "SQL (MySQL / PostgreSQL)"
+            "MongoDB Atlas",
+            "Mongoose ORM",
+            "SQL (MySQL / PostgreSQL)",
+            "Database Schema Design"
         ]
     },
     {
         "title": "Tools & Practices",
         "skills": [
             "Git & GitHub",
+            "Vite",
+            "PWA & Service Workers",
             "JWT Authentication",
             "API Integration",
-            "MVC & Layered Architecture"
+            "Postman",
+            "MVC & Layered Architecture",
+            "CI/CD & Cloud Deployment (Vercel / Render / Netlify)"
         ]
     },
     {
         "title": "Creative",
         "skills": [
             "Video Editing (Adobe Premiere Pro)",
-            "Photo Editing (Adobe Lightroom)"
+            "Photo Editing (Adobe Lightroom)",
+            "UI/UX Design & Wireframing",
+            "Visual Content Creation"
         ]
     }
 ]

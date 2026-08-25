@@ -3,35 +3,105 @@
   border-top: var(--border-width) solid var(--border-color);
 }
 
+.experience__section-header {
+  border-left: 4px solid var(--text-primary);
+  padding-left: 24px;
+  margin-top: 16px;
+  margin-bottom: 48px;
+}
+
+.experience__section-subtitle {
+  font-size: 1.05rem;
+  color: var(--text-secondary);
+  margin-top: 8px;
+}
+
 .experience__grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 60px;
+  gap: 48px;
+}
+
+.experience__column-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+.experience__column-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border: var(--border-width) solid var(--border-color);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+.experience__column-title {
+  font-family: var(--font-primary);
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
 }
 
 .experience__timeline {
+  position: relative;
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 28px;
+  padding-left: 24px;
+}
+
+.experience__timeline-wire {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: var(--border-color);
+  z-index: 0;
 }
 
 .experience__item {
   padding: 28px;
   position: relative;
-}
-
-.experience__item::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -24px;
-  width: 12px;
-  height: 12px;
-  border: var(--border-width) solid var(--border-color);
   background-color: var(--bg-primary);
+  border: var(--border-width) solid var(--border-color);
+  box-shadow: 8px 8px 0 var(--border-color);
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
 }
 
-.experience__header {
+.experience__item:hover {
+  transform: translate(4px, 4px);
+  box-shadow: 4px 4px 0 var(--border-color);
+}
+
+.experience__timeline-node {
+  position: absolute;
+  left: -30px;
+  top: 32px;
+  width: 14px;
+  height: 14px;
+  background-color: var(--bg-primary);
+  border: 2px solid var(--border-color);
+  z-index: 2;
+  transition: background-color var(--transition-fast);
+}
+
+.experience__item:hover .experience__timeline-node {
+  background-color: var(--text-primary);
+}
+
+.experience__item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  border-bottom: 2px solid var(--border-color);
+  padding-bottom: 16px;
   margin-bottom: 16px;
 }
 
@@ -40,22 +110,25 @@
   font-size: 0.8rem;
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: var(--text-secondary);
+  letter-spacing: 0.05em;
+  color: var(--text-primary);
   padding: 4px 12px;
-  border: 1px solid var(--border-color);
+  border: 2px solid var(--border-color);
+  background-color: var(--bg-secondary);
+  white-space: nowrap;
 }
 
 .experience__title {
-  font-size: 1.25rem;
-  margin-bottom: 8px;
+  font-size: 1.2rem;
+  margin-bottom: 4px;
 }
 
 .experience__org {
   font-family: var(--font-primary);
-  font-weight: 500;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
   color: var(--text-secondary);
-  margin-bottom: 12px;
 }
 
 .experience__desc {
@@ -64,11 +137,34 @@
   color: var(--text-secondary);
 }
 
+.experience__skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.experience__grade-wrapper {
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 2px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.experience__grade-icon {
+  color: var(--text-primary);
+  flex-shrink: 0;
+}
+
 .experience__grade {
   font-family: var(--font-primary);
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   font-weight: 700;
-  margin-top: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--text-primary);
 }
 
 /* Mobile Styles */
@@ -78,7 +174,16 @@
     gap: 40px;
   }
 
-  .experience__item::before {
-    display: none;
+  .experience__timeline {
+    padding-left: 16px;
+  }
+
+  .experience__timeline-node {
+    left: -22px;
+  }
+
+  .experience__item-header {
+    flex-direction: column;
+    gap: 8px;
   }
 }

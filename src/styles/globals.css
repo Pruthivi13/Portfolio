@@ -123,11 +123,29 @@ a:hover {
   padding: var(--section-padding) 0;
 }
 
+/* Section Header */
+.section-header {
+  border-left: 4px solid var(--text-primary);
+  padding-left: 24px;
+  margin-top: 16px;
+  margin-bottom: 48px;
+}
+
 .section-title {
   font-family: var(--font-primary);
   font-size: clamp(2rem, 4vw, 3rem);
-  margin-bottom: 40px;
-  position: relative;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  margin-bottom: 0;
+}
+
+.section-subtitle {
+  font-family: var(--font-primary);
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  font-weight: 500;
+  color: var(--text-secondary);
+  margin-top: 8px;
 }
 
 /* Buttons */

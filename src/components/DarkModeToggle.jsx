@@ -3,17 +3,38 @@ import './DarkModeToggle.css';
 
 const DarkModeToggle = () => {
   const [isDark, setIsDark] = useState(() => {
-    const saved = localStorage.getItem('theme');
-    return saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches);
+    if (typeof document !== 'undefined') {
+      const current = document.documentElement.getAttribute('data-theme');
+      if (current) return current === 'dark';
+      const saved = localStorage.getItem('theme');
+      if (saved) return saved === 'dark';
+      return window.matchMedia?.('(prefers-color-scheme: dark)').matches || false;
+    }
+    return false;
   });
 
   useEffect(() => {
-    document.documentElement.setAttribute('data-theme', isDark ? 'dark' : 'light');
-    localStorage.setItem('theme', isDark ? 'dark' : 'light');
-  }, [isDark]);
+    const observer = new MutationObserver((mutations) => {
+      mutations.forEach((mutation) => {
+        if (mutation.attributeName === 'data-theme') {
+          const currentTheme = document.documentElement.getAttribute('data-theme');
+          setIsDark(currentTheme === 'dark');
+        }
+      });
+    });
+
+    observer.observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ['data-theme']
+    });
+
+    return () => observer.disconnect();
+  }, []);
 
   const toggleTheme = () => {
-    setIsDark(!isDark);
+    const nextTheme = isDark ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', nextTheme);
+    localStorage.setItem('theme', nextTheme);
   };
 
   return (
