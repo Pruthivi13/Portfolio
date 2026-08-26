@@ -11,11 +11,10 @@
             "isPrimary": true
         },
         {
-            "text": "Download Resume",
-            "href": "/resume.pdf",
+            "text": "View Resume",
+            "href": "https://drive.google.com/file/d/1CKpGhmPrFeAOCaenDhqS8x3UFS9-35rW/view?usp=sharing",
             "isPrimary": false,
-            "isExternal": true,
-            "download": true
+            "isExternal": true
         }
     ]
 }
